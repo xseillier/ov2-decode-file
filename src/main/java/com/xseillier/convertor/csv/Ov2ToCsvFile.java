@@ -25,7 +25,7 @@ public class Ov2ToCsvFile {
 		else
 		{
 			bufferedWriter = new BufferedWriter( new OutputStreamWriter( new FileOutputStream( file )  ) );
-			if( type == Ov2ToCsvType.TOW )
+			if( type == Ov2ToCsvType.TWO )
 			{
 				writeLine( ColummType2 );
 			}

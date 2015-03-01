@@ -20,7 +20,7 @@ public class Main {
 		
 		try
 		{
-			final Ov2ToCsvFile csvFile = new Ov2ToCsvFile("output.csv", Ov2ToCsvType.TOW );	
+			final Ov2ToCsvFile csvFile = new Ov2ToCsvFile("output_radar.csv", Ov2ToCsvType.TWO );	
 		    
 		    Consumer<String> write = ( String csvString ) ->  {  
 		    	try
