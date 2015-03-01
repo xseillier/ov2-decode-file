@@ -1,0 +1,20 @@
+
+## repository
+bin/
+build/
+.gradle/
+.metadata/
+tmp/
+temp/
+logs/
+.settings/
+target/
+docs/
+
+## file
+*.log
+*.class
+*.bak
+.classpath
+.project
+
