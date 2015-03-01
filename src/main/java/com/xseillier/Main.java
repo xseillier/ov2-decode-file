@@ -16,7 +16,6 @@ public class Main {
 		
 		URL url = Main.class.getClass().getResource( "/radarsFr.ov2" );
 		
-		System.out.println( url.getFile() );
 		Ov2ToCsvVisitor csvVisitor = new Ov2ToCsvVisitor();
 		
 		try
@@ -31,7 +30,7 @@ public class Main {
 		    	catch (Exception e) {
 		    		e.printStackTrace();
 				}  
-		    	};
+		    };
 		
 	
 			Ov2DecodeFile.Ov2Items( url ).filter( oV2Item -> oV2Item.getType() == 2 )
